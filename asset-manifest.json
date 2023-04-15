@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/elgbud-new/static/css/main.945d4228.css",
+    "main.js": "/elgbud-new/static/js/main.8c23f969.js",
+    "static/media/logo.png": "/elgbud-new/static/media/logo.2dd5d5bde3d08970e2e4.png",
+    "index.html": "/elgbud-new/index.html",
+    "main.945d4228.css.map": "/elgbud-new/static/css/main.945d4228.css.map",
+    "main.8c23f969.js.map": "/elgbud-new/static/js/main.8c23f969.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.945d4228.css",
+    "static/js/main.8c23f969.js"
+  ]
+}
