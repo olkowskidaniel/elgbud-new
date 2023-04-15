@@ -30,9 +30,7 @@
                 transition: transform 0.5s;
                 margin-top: 2px;
             }
-    
-            
-    
+                
             &:hover::after {
                 transform: scaleX(1);
                 transform-origin: left;
@@ -45,7 +43,10 @@
                 transform-origin: left;
             }
         }
-    }    
+    }  
+    .nav-menu-smartphone {
+        display: none;
+    }  
 }
 
 @media (max-width: $breakpoint-desktop-narrow) {
@@ -85,6 +86,9 @@
         flex-grow: 0;
         .nav-menu-desktop {
             display: none;
+        }
+        .nav-menu-smartphone {
+            display: block;
         }
     }
 }

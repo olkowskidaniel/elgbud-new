@@ -33,7 +33,7 @@ const menuItems = [
 ]
 
 const NavMenu = () => {
-    const [isBurgerOpen, setburgerOpen] = useState(false)
+    const [isBurgerMenuOpen, setBurgerMenuOpen] = useState(false)
     return (
         <div className="nav-menu-container">
             <div className="nav-menu-desktop">
@@ -44,7 +44,7 @@ const NavMenu = () => {
             }
             </div>
             <div className="nav-menu-smartphone">
-                <Hamburger toggled={isBurgerOpen} toggle={setburgerOpen}/>
+                <Hamburger toggled={isBurgerMenuOpen} toggle={setBurgerMenuOpen}/>
             </div>
         </div>
     )
