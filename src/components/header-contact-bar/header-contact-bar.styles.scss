@@ -15,8 +15,8 @@
         svg {
             color: $primary-color;
             margin-right: 5px;
-            width: 20px;
-            height: 20px;
+            width: 15px;
+            height: 15px;
         }
 
         a {
@@ -24,7 +24,13 @@
             font-weight: bold;
             text-decoration: none;
             margin-right: 10px;
-            font-size: 14px;
+            font-size: 12px;
         }
+    }
+}
+
+@media(max-width: $breakpoint-smartphone) {
+    .header-contact-bar-container {
+        display: none;
     }
 }
