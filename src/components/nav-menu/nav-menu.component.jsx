@@ -1,6 +1,8 @@
 import "./nav-menu.styles.scss";
 import { NavLink } from "react-router-dom";
-import BurgerButton from "../burger-button/burger-button.component";
+import { Squash as Hamburger } from 'hamburger-react';
+import { useState } from "react";
+
 
 const menuItems = [
     {
@@ -31,6 +33,7 @@ const menuItems = [
 ]
 
 const NavMenu = () => {
+    const [isBurgerOpen, setburgerOpen] = useState(false)
     return (
         <div className="nav-menu-container">
             <div className="nav-menu-desktop">
@@ -41,7 +44,7 @@ const NavMenu = () => {
             }
             </div>
             <div className="nav-menu-smartphone">
-                <BurgerButton />
+                <Hamburger toggled={isBurgerOpen} toggle={setburgerOpen}/>
             </div>
         </div>
     )
