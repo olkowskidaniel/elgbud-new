@@ -1,0 +1,34 @@
+@import "../../variables.scss";
+
+.burger-menu-container {
+    width: 100%;
+    height: 100px;
+    display: none;
+    margin-top: 30px;
+    .burger-menu-item {
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        border-bottom: 1px solid #c0bebe;
+        padding-left: 10px;
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        .active {
+            color: $primary-color;
+        }
+        &:last-child {
+            border: none;
+        }
+    }
+    
+}
+
+
+@media(max-width: $breakpoint-smartphone) {
+    .burger-menu-container {
+        display: block;
+    }
+}
+

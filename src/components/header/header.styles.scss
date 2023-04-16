@@ -4,6 +4,7 @@
     width: 100vw;
     height: 100px;
     position: relative;
+    overflow: hidden;
     .header-middle-bar {
         width: 100%;
         height: 45px;
@@ -62,10 +63,14 @@
         border-bottom: 1px solid $primary-color;
         height: 60px;
         margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        transition: 0.2s;
         .header-middle-bar {
             display: none;
         }        
         .logo-menu-container {
+            position: relative;
             width: 90%;
             top: 0;
             left: 0;
@@ -76,5 +81,9 @@
                 position: relative;
             }
         }
+    }
+
+    .burger-menu-opened {
+        height: 375px;
     }
 }
