@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/elgbud-new/static/css/main.6f469ecc.css",
-    "main.js": "/elgbud-new/static/js/main.dbe89867.js",
+    "main.js": "/elgbud-new/static/js/main.7abd5074.js",
     "static/media/logo.png": "/elgbud-new/static/media/logo.2dd5d5bde3d08970e2e4.png",
     "index.html": "/elgbud-new/index.html",
     "main.6f469ecc.css.map": "/elgbud-new/static/css/main.6f469ecc.css.map",
-    "main.dbe89867.js.map": "/elgbud-new/static/js/main.dbe89867.js.map"
+    "main.7abd5074.js.map": "/elgbud-new/static/js/main.7abd5074.js.map"
   },
   "entrypoints": [
     "static/css/main.6f469ecc.css",
-    "static/js/main.dbe89867.js"
+    "static/js/main.7abd5074.js"
   ]
 }
