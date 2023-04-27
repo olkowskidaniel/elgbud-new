@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'https://eu-west-2.cdn.hygraph.com/content/clgqu9sfy0h3101un5j238qd4/master',
+  uri: 'https://api-eu-west-2.hygraph.com/v2/clgqu9sfy0h3101un5j238qd4/master',
   cache: new InMemoryCache(),
 });
 

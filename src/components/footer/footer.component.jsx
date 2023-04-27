@@ -2,7 +2,7 @@ import "./footer.styles.scss";
 
 const Footer = () => {
     return (
-        <div className="footer-container">FOOTER</div>
+        <div className="footer-container">FOOTER123</div>
     )
 }
 
