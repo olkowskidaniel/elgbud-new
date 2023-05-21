@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/elgbud-new/static/css/main.e0d3f204.css",
-    "main.js": "/elgbud-new/static/js/main.3ab8bd20.js",
+    "main.css": "/elgbud-new/static/css/main.1a0ed7dd.css",
+    "main.js": "/elgbud-new/static/js/main.108fc7fd.js",
+    "static/media/tiny-house.jpg": "/elgbud-new/static/media/tiny-house.ca69c58dd99e6106d0b1.jpg",
     "static/media/logo.png": "/elgbud-new/static/media/logo.2dd5d5bde3d08970e2e4.png",
     "index.html": "/elgbud-new/index.html",
-    "main.e0d3f204.css.map": "/elgbud-new/static/css/main.e0d3f204.css.map",
-    "main.3ab8bd20.js.map": "/elgbud-new/static/js/main.3ab8bd20.js.map"
+    "main.1a0ed7dd.css.map": "/elgbud-new/static/css/main.1a0ed7dd.css.map",
+    "main.108fc7fd.js.map": "/elgbud-new/static/js/main.108fc7fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0d3f204.css",
-    "static/js/main.3ab8bd20.js"
+    "static/css/main.1a0ed7dd.css",
+    "static/js/main.108fc7fd.js"
   ]
 }
