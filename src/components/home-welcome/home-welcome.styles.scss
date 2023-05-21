@@ -1,0 +1,132 @@
+@import "../../variables.scss";
+
+.home-welcome-container {
+    position: relative;
+    max-width: 100%;
+    width: 100vw;
+    height: calc(100vh - 100px);
+
+    .home-welcome-box {
+        width: 50%;
+        height: 60%;
+        background-color: white;
+        border-radius: 20px;
+        opacity: 0.8;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 30px 0;
+
+        p:nth-child(1) {
+            font-size: 50px;
+        }
+        p:nth-child(2) {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        div {
+            width: 90%;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            div.item-wrapper {
+                display: flex;
+                width: 30%;
+                justify-content: flex-start;
+                i {
+                    width: 30px;
+                    height: 30px;
+                    .home-welcome-icon {
+                        width: 30px;
+                        height: 30px;
+                        fill: $primary-color;
+                    }
+                }
+                span {
+                    line-height: 30px;
+                    margin-left: 5px;
+                    font-size: 20px;
+                }
+                &:nth-child(2) {
+                    flex-grow: 1;
+                }
+            }
+        }
+
+        button {
+            font-size: 20px;
+            color: white;
+            background-color: $primary-color;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: $breakpoint-desktop-middle) {
+    .home-welcome-container {    
+        .home-welcome-box {
+            p:nth-child(2) {
+                font-size: 25px;
+            }               
+            div {                
+                div.item-wrapper {    
+                    i {
+                        width: 20px;
+                        height: 20px;
+                        .home-welcome-icon {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }                
+                 span {
+                        font-size: 15px;
+                    }
+                }
+            }    
+            button {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .home-welcome-container {    
+        .home-welcome-box {
+            width: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            div {
+                width: 95%;
+            }
+        }
+    }
+}
+
+@media (max-width: $breakpoint-smartphone) {
+    .home-welcome-container {    
+        .home-welcome-box {
+            width: 80%;
+            height: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            div {
+                flex-basis: 30%;
+                flex-direction: column;
+                div.item-wrapper {
+                    flex-direction: row;
+                    width: 70%;
+                }
+            }
+        }
+    }
+}
