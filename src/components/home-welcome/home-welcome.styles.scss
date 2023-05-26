@@ -4,14 +4,13 @@
     position: relative;
     max-width: 100%;
     width: 100vw;
-    height: calc(100vh - 100px);
-
+    height: 100vh;
     .home-welcome-box {
         width: 50%;
         height: 60%;
         background-color: white;
         border-radius: 20px;
-        opacity: 0.8;
+        opacity: 0.9;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);

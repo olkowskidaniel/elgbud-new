@@ -1,12 +1,12 @@
-import "./home-welcome.styles.scss";
-import tinyHouseImg from "../../assets/images/tiny-house.jpg";
+import "./home-welcome.styles.scss";    
+import homePageHouse from "../../assets/images/home-page-house.jpg";
 import { BiCheckCircle } from "react-icons/bi";
 import { IconContext } from "react-icons/lib";
 
 
 const HomeWelcome = () => {
     return (
-        <div className="home-welcome-container" style={{backgroundImage: `url(${tinyHouseImg})`, backgroundSize: 'cover'}}>
+        <div className="home-welcome-container" style={{backgroundImage: `url(${homePageHouse})`, backgroundSize: 'cover', backgroundPosition: 'center center'}}>
             <div className="home-welcome-box">
                 <p>
                     ELGBUD

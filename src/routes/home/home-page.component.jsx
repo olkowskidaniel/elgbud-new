@@ -1,6 +1,7 @@
 import "./home-page.styles.scss";
 // import { useQuery, gql } from '@apollo/client';
 import HomeWelcome from "../../components/home-welcome/home-welcome.component";
+import HomeWhy from "../../components/home-why/home-why.component";
 
 
 // const GET_OFFERS = gql`
@@ -31,6 +32,7 @@ const HomePage = () => {
     return (
         <div className="home-page-container">
             <HomeWelcome />
+            <HomeWhy />
         </div>
     )
 }
