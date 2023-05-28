@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/elgbud-new/static/css/main.61b66ef1.css",
-    "main.js": "/elgbud-new/static/js/main.e7871cb9.js",
+    "main.css": "/elgbud-new/static/css/main.5bff8633.css",
+    "main.js": "/elgbud-new/static/js/main.68fe2a77.js",
+    "static/media/home-about.jpg": "/elgbud-new/static/media/home-about.c0594e2c11f2eb6bfd30.jpg",
     "static/media/home-page-house.jpg": "/elgbud-new/static/media/home-page-house.76ebe50897e71e64f505.jpg",
     "static/media/logo.png": "/elgbud-new/static/media/logo.2dd5d5bde3d08970e2e4.png",
     "index.html": "/elgbud-new/index.html",
-    "main.61b66ef1.css.map": "/elgbud-new/static/css/main.61b66ef1.css.map",
-    "main.e7871cb9.js.map": "/elgbud-new/static/js/main.e7871cb9.js.map"
+    "main.5bff8633.css.map": "/elgbud-new/static/css/main.5bff8633.css.map",
+    "main.68fe2a77.js.map": "/elgbud-new/static/js/main.68fe2a77.js.map"
   },
   "entrypoints": [
-    "static/css/main.61b66ef1.css",
-    "static/js/main.e7871cb9.js"
+    "static/css/main.5bff8633.css",
+    "static/js/main.68fe2a77.js"
   ]
 }
