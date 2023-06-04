@@ -8,9 +8,8 @@
     .home-welcome-box {
         width: 50%;
         height: 60%;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.9);
         border-radius: 20px;
-        opacity: 0.9;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -37,7 +36,7 @@
             div.item-wrapper {
                 display: flex;
                 width: 30%;
-                justify-content: flex-start;
+                justify-content: center;
                 i {
                     width: 30px;
                     height: 30px;
@@ -63,9 +62,14 @@
             color: white;
             background-color: $primary-color;
             border: none;
-            border-radius: 5px;
+            border-radius: 10px;
             padding: 10px 20px;
-            cursor: pointer;
+            transition: 0.1s;
+            opacity: 1;
+            &:hover {
+                cursor: pointer;
+                background-color: red;
+            }
         }
     }
 }
@@ -101,7 +105,7 @@
 @media (max-width: $breakpoint-tablet) {
     .home-welcome-container {    
         .home-welcome-box {
-            width: 70%;
+            width: 90%;
             left: 50%;
             transform: translate(-50%, -50%);
             div {
@@ -114,7 +118,7 @@
 @media (max-width: $breakpoint-smartphone) {
     .home-welcome-container {    
         .home-welcome-box {
-            width: 80%;
+            width: 90%;
             height: 80%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -122,6 +126,7 @@
                 flex-basis: 30%;
                 flex-direction: column;
                 div.item-wrapper {
+                    justify-content: flex-start;
                     flex-direction: row;
                     width: 70%;
                 }

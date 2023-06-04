@@ -2,9 +2,12 @@ import "./home-welcome.styles.scss";
 import homePageHouse from "../../assets/images/home-page-house.jpg";
 import { BiCheckCircle } from "react-icons/bi";
 import { IconContext } from "react-icons/lib";
+import { useNavigate } from "react-router-dom";
+
 
 
 const HomeWelcome = () => {
+    const navigate = useNavigate();
     return (
         <div className="home-welcome-container" style={{backgroundImage: `url(${homePageHouse})`, backgroundSize: 'cover', backgroundPosition: 'center center'}}>
             <div className="home-welcome-box">
@@ -37,7 +40,7 @@ const HomeWelcome = () => {
                     </IconContext.Provider>
                 </div>
 
-                <button>ZOBACZ NASZĄ OFERTĘ</button>
+                <button onClick={() => navigate('/offer')}>ZOBACZ NASZĄ OFERTĘ</button>
             </div>
         </div>
     )
