@@ -3,6 +3,7 @@ import "./home-page.styles.scss";
 import HomeWelcome from "../../components/home-welcome/home-welcome.component";
 import HomeWhy from "../../components/home-why/home-why.component";
 import HomeAbout from "../../components/home-about/home-about.component";
+import HomeOffer from "../../components/home-offer/home-offer.component";
 
 
 // const GET_OFFERS = gql`
@@ -35,6 +36,7 @@ const HomePage = () => {
             <HomeWelcome />
             <HomeAbout />
             <HomeWhy />
+            <HomeOffer />
         </div>
     )
 }

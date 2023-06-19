@@ -1,0 +1,13 @@
+@import "../../variables.scss";
+
+
+.home-offer-container {
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    p:first-child {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
